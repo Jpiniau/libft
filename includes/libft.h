@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 13:47:09 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/11/24 18:01:20 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/05/21 18:18:13 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,5 +81,6 @@ void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 int					ft_strcchr(char *str, char c);
+int					ft_pow(int x, int y);
 
 #endif
