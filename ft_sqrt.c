@@ -6,14 +6,14 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/05/21 18:31:38 by jpiniau           #+#    #+#             */
-/*   Updated: 2015/05/21 18:31:53 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/05/23 18:54:25 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 float	ft_sqrt(float x)
 {
 	float	root;
-	int	i;
+	int		i;
 
 	i = -1;
 	root = x / 2;

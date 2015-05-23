@@ -1,23 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_lstaddback.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/11/03 14:25:04 by jpiniau           #+#    #+#             */
-/*   Updated: 2015/05/23 19:40:14 by jpiniau          ###   ########.fr       */
+/*   Created: 2015/05/23 19:18:42 by jpiniau           #+#    #+#             */
+/*   Updated: 2015/05/23 19:20:05 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t		ft_strlen(const char *str)
+void	ft_lstaddback(t_list **begin, t_list *new)
 {
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	if (begin != NULL)
+	{
+		if (*begin == NULL)
+		{
+			*begin = new;
+		}
+		else if ((*begin)->next == NULL)
+			(*begin)->next = new;
+		else
+		{
+			return (ft_lstaddback(&(*begin)->next, new));
+		}
+	}
 }
