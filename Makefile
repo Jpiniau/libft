@@ -6,7 +6,7 @@
 #    By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/09 15:51:57 by jpiniau           #+#    #+#              #
-#    Updated: 2015/05/23 20:18:15 by jpiniau          ###   ########.fr        #
+#    Updated: 2015/05/23 20:27:21 by jpiniau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,6 +71,7 @@ SRC = ft_atoi.c\
 	  ft_lstaddback.c\
 	  ft_lstiter.c\
 	  ft_lstmap.c\
+	  ft_strndup.c\
 	  ft_strcchr.c\
 	  ft_pow.c\
 	  ft_sqrt.c
