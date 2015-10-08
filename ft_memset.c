@@ -6,13 +6,13 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 13:05:01 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/11/10 19:23:35 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/10/08 15:22:59 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	char *d;
 

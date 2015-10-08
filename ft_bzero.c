@@ -6,13 +6,13 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 12:27:01 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/11/04 12:28:20 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/10/08 15:22:03 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_bzero(void *b, size_t len)
+void	ft_bzero(void *b, size_t len)
 {
 	char *d;
 

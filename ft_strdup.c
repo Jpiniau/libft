@@ -6,14 +6,14 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 15:14:23 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/12/10 13:39:33 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/10/08 15:23:30 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-char *ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char	*cpy;
 

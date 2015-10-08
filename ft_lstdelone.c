@@ -6,14 +6,14 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/09 17:25:37 by jpiniau           #+#    #+#             */
-/*   Updated: 2014/11/24 16:12:43 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/10/08 15:22:15 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-void ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
+void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {
 	t_list	*lst;
 
@@ -23,7 +23,7 @@ void ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 		del((*alst)->content, (*alst)->content_size);
 		(*alst)->content = NULL;
 		(*alst)->content_size = 0;
-		free (*alst);
+		free(*alst);
 		*alst = lst;
 	}
 }
