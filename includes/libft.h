@@ -6,7 +6,7 @@
 /*   By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 13:47:09 by jpiniau           #+#    #+#             */
-/*   Updated: 2015/05/23 19:56:40 by jpiniau          ###   ########.fr       */
+/*   Updated: 2015/10/28 15:29:39 by jpiniau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,9 +82,12 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				ft_lstaddback(t_list **alst, t_list *new);
-char				*ft_strndup(const char *str, size_t n);
 int					ft_strcchr(char *str, char c);
-int					ft_pow(int x, int y);
 float				ft_sqrt(float x);
+int					ft_isupper(int c);
+int					ft_islower(int c);
+char				*ft_strndup(const char *str, size_t n);
+int					ft_pow(int x, int y);
+int					ft_mod(int x, int y);
 
 #endif
