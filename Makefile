@@ -6,7 +6,7 @@
 #    By: jpiniau <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/09 15:51:57 by jpiniau           #+#    #+#              #
-#    Updated: 2016/03/18 15:42:28 by jpiniau          ###   ########.fr        #
+#    Updated: 2016/03/18 16:01:00 by jpiniau          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,7 +75,8 @@ SRC = ft_atoi.c\
 	  ft_strndup.c\
 	  ft_strcchr.c\
 	  ft_pow.c\
-	  ft_sqrt.c
+	  ft_sqrt.c\
+	  get_next_line.c
 
 OBJ = $(SRC:.c=.o)
 
